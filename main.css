@@ -100,7 +100,7 @@ border: outset 3px;
 
 /* Aplicando transiciones/transformaciones footer */
 
-/* .tag_face{
+.tag_face{
     transition: .3s;
     transition-timing-function: ease;
 }
@@ -131,7 +131,7 @@ border: outset 3px;
 .tag_insta:hover{
     transform: scale(1.2);
 }
- */
+
 
 
 
@@ -160,7 +160,7 @@ border: outset 3px;
 
 /* ANIMACIONES PARA EL H1 */
 
-/* @keyframes h1_entrada {
+@keyframes h1_entrada {
     0%{
         transform: translateY(100px);
         opacity: 0;
@@ -175,7 +175,7 @@ border: outset 3px;
 
     }
 
-} */
+}
 
 /* -----------------------------  Estilos header INDEX ---------------------------- */
 
@@ -717,7 +717,7 @@ main div {
 /* Aplicando transiciones/transformaciones footer */
 
 
-/* .tag_face{
+.tag_face{
     transition: .3s;
     transition-timing-function: ease;
 }
@@ -750,7 +750,7 @@ main div {
 .clase_span div{
     display: inline-block;
     margin: 10px;
-} */
+}
 
 
 /* -------------------FIN ESTILOS FOOTER------------------ */
