@@ -518,32 +518,29 @@ main h2{
     
 }
 
-
-.formulario {
-    margin-left: 10px;
-    
-}
-
-
 .imagen-nosotros{
 
     width: 40%;
     
 }
 
-.formulario form div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .h-nosotros{
-    display: flex;
-    justify-content: center;
+  
+    margin-left: 25px;
 }
 
 .main-nosotros h4{
     margin-left: 10px;
+}
+
+.row{
+    
+    background-color: #979ab5;  
+    display:inline-block;
+    
+    margin: 16px;
+    
 }
 
 /* -------------------------Comienzo de media queris ------------------------------------------------*/
