@@ -6,41 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instalaciones</title>
+
+     <!-- Aplicando Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+     <!-- Link CSS -->
     <link rel="stylesheet" href="../main.css">
+
+    <!-- Link de librerias Google Fonts -->
+    <link rel="preconectar" href="https://fonts.googleapis.com">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Cormorant:wght@300 & display=swap" rel="stylesheet">
+    
+    
 
 </head>
 <!-- Fin del Head -->
-    <body class="body_contac">
+
+    <body class="body_instalaciones">
         <!-- Inicio del header -->
         <header>
+
             <!-- Navegación del sitio -->
-            <nav>
-                        
-                <div>
-                    <ul>
-                        <li>
-                            <a href="../index.html">Home</a>
-                        </li>
-                                
-                        <li> 
-                            <a href="Nuevo_Proceso.html">Nuevos Procesos</a>
-                        </li>
-                    
-                        <li> 
-                            <a href="Instalaciones.html">Instalaciones</a>
-                        </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient border border-secondary rounded-start">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.edenor.com/"><img src="../Imagenes/50x50.png" alt="Logo Edenor"><a>
+          
+          
+          <button class="navbar-toggler border " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+            
+            
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tramites.html">Tramites</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mas Opciones
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Instalaciones.html">Instalaciones</a></li>
+                  <li><a class="dropdown-item" href="Nuevo_Proceso.html">Nuevos procesos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Nosotros.html">Nosotros</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-                        <li> 
-                            <a href="Tramites.html">Tramites</a>
-                        </li>
-
-                        <li> 
-                            <a href="Nosotros.html">Nosotros</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- Fin de la navegación -->
+    <!-- Fin de la navegación -->
 
             <h1 class="instalaciones_h1">Instalaciones de la empresa</h1>
             <p class="descripcion-instalaciones">En esta sección podremos tener una idea visual de las intalaciones de la empresa, tanto en instalaciones residenciales como en obras de mejora para las redes de Alta Tensión y Media Tensión...</p>
@@ -50,27 +77,62 @@
     <!-- Inicio del main -->
     <main>
         <section class="section-img">
-            <img class="imagen-1" src="../Imagenes/SubEstacion.jpg" alt="">
-            <p class="descrip-1">Sub estación de la empresa</p>
-
-            <img class="imagen-2" src="../Imagenes/Altatensión.jpg" alt="">
-            <p class="descrip-2">Obra de Alta Tensión</p>
-
-            <img class="imagen-3" src="../Imagenes/Edenor-medidores.jpg" alt="">
-            <p class="descrip-3">Maniobras en medidores</p>
-
-            <img class="imagen-4" src="../Imagenes/cortes-de-luz_862x485.jpg" alt="">
-            <p class="descrip-4">Maniobras en Linea Aérea</p>
-
-            <img class="imagen-5" src="../Imagenes/D_NQ_NP_846694-MLA40983878639_032020-O.webp" alt="">
-            <p class="descrip-5">Pilar de conexión</p>
-
-            <img class="imagen-6" src="../Imagenes/EDENOR Subestacion Aniversario (2).jpg" alt="">
-            <p class="descrip-6">Subestacion Aniversario</p>
+           
 
         </section>
 
-       
+        <div class="contenedor-cards">
+
+          <div class="card" style="width: 18rem;">
+            <img src="../Imagenes/EDENOR Subestacion Aniversario (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Sub estación de la empresa.</p>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="../Imagenes/SubEstacion.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Sub estación Aniversario.</p>
+            </div>
+          </div>
+          
+          <div class="card" style="width: 18rem;">
+            <img src="../Imagenes/Altatensión.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Central de Alta Tensión.</p>
+            </div>
+          </div>
+          
+    
+    
+          <div class="card" style="width: 18rem;">
+            <img src="../Imagenes/Edenor-medidores.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Trabajo sobre medidores convencionales.</p>
+            </div>
+          </div>
+    
+    
+    
+          <div class="card" style="width: 18rem;">
+            <img src="../Imagenes/cortes-de-luz_862x485.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Trabajos sobre la linea de media Tensión.</p>
+            </div>
+          </div>
+    
+    
+    
+          <div class="card" style="width: 18rem;">
+            <img src="../Imagenes/D_NQ_NP_846694-MLA40983878639_032020-O.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Esquema de pilares convencionales.</p>
+            </div>
+          </div>
+    
+    
+        <div>
 
 
 
@@ -109,6 +171,9 @@
 </footer>
 <!-- fin del pie de la pagina -->
 
-    </body>
+    <!-- Aplicando LINK JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
 </html>
 
