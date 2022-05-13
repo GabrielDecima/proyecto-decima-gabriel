@@ -1,0 +1,40 @@
+/* -------------------------------Estilos Pag Nuevo_proceso------------------------------------------------- */
+
+/* -------------------- Estilos H de nuevo procesos ---------------------- -*/
+.procesos_h1{
+    
+    text-decoration: underline;
+    font-family: 'Cormorant', cursive;
+    font-size: 35px; 
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+/* ------------------ Fin Estilos H de nuevo procesos ----------------------------*/ 
+
+
+ /* ----------------------- Estilos DIV de nuevo procesos ----------------------- -*/ 
+
+.main_proceso{
+
+        div {
+            
+            border: solid;
+            display: block;
+            border-color: #efece9;
+            text-align: center;
+
+        h3 {
+            text-decoration: underline;
+        }
+
+        ol li{
+            list-style-position: inside;
+        }
+                
+        }    
+
+}
+
+/* ---------------------------- FIN Estilos DIV de nuevo procesos  ----------------------------------*/ 

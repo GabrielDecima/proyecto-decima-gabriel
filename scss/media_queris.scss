@@ -1,0 +1,366 @@
+/* -------------------------Comienzo de media queris ------------------------------------------------*/
+
+
+@media screen and (min-width: 1200px) {
+
+    /* Estilos barra de navegación */
+
+.navbar{
+    padding: 0px;
+}
+
+
+/* Fin Estilos barra de navegación */
+
+
+/* ----------------------------------------Estilos Headrer index--------------------- */
+
+
+/* Estilo para los H index */
+.home_h1{
+    font-family: 'Cormorant', cursive;
+    font-size: 65px;
+    
+}
+
+/* Estilos header */
+
+.section-1{
+    display: flex;
+    flex-direction: row;  
+
+
+    h1{
+        margin: 160px 180px 160px 60px;
+    }
+    
+}
+
+
+
+.ultimasActualizaciones {
+    color: rgb(255, 0, 0);
+    text-decoration:underline;
+     padding-left: 2px;
+     margin-left: 18px;
+     font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+
+/* Fin Estilo para los H index---------------------------------------------------- */
+
+
+/* Estilos Main del Index --------------------------------------------------------*/
+
+.descrip-pagina{
+    
+    margin-left: 8px;
+
+    h2{
+    margin-left: 8px;
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    }
+
+    p{
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+
+    grid-area: section;
+}
+
+
+
+
+.section-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "div section"
+;
+
+}
+
+main div {
+    grid-area: div;
+}
+
+
+.header-index{
+    background-image: url(../Imagenes/ciudad2.jpg);
+    background-size:cover;
+    padding-bottom: 110px;
+    
+    
+    
+}
+
+
+/* -------------------------Estilos FOOTER -------------------------------------------*/
+
+
+/* Estilos Links de FOTER */
+
+.link_redes {
+
+    h3{
+        
+        text-align: center;
+        text-decoration: underline;
+        margin: 10px;
+        color: white;
+        
+
+    }
+    a{
+   
+        margin: 10px;
+        text-decoration: none;
+        color: white;
+        border: solid;
+        border-radius: 4px;
+        padding: 2px;
+        
+    
+    }
+
+}
+
+.clase_span {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    padding:10px;  
+    
+    div{
+        display: inline-block;
+        margin: 10px;
+    }
+
+}
+
+
+.section-footer{
+    border: outset 3px;
+    background-color: #ced1f0;
+    margin-top: 0px;
+    
+}
+
+
+
+/* Aplicando transiciones/transformaciones footer */
+
+
+.tag_face{
+    transition: .3s;
+    transition-timing-function: ease;
+}
+.tag_tw{
+    transition: .3s;
+    transition-timing-function: ease;
+}
+.tag_oficial{
+    transition: .3s;
+    transition-timing-function: ease;
+}
+.tag_insta{
+    transition: .3s;
+    transition-timing-function: ease;
+}
+
+.tag_face:hover{
+    transform: scale(1.1);
+}
+.tag_tw:hover{
+    transform: scale(1.1);
+}
+.tag_oficial:hover{
+    transform: scale(1.1);
+}
+.tag_insta:hover{
+    transform: scale(1.1);
+}
+
+
+/* -------------------FIN ESTILOS FOOTER------------------ */
+
+
+/* -------------------------------Nuevo_proceso------------------------------------------------- */
+
+/* Estilos H de nuevo procesos -------------------------------------------------- */
+.procesos_h1{
+    
+    text-decoration: underline;
+    font-family: 'Cormorant', cursive;
+    font-size: 35px; 
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+/* Fin Estilos H de nuevo procesos ----------------------------------------------*/ 
+
+
+ /* Estilos DIV de nuevo procesos ------------------------------------------------*/ 
+
+.main_proceso{
+
+        div {
+            
+            border: solid;
+            display: block;
+            border-color: #efece9;
+            text-align: center;
+
+            h3 {
+                text-decoration: underline;
+            }
+
+            ol li {
+
+                list-style-position: inside;
+                
+                }
+                
+            }
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "proceso_h1 proceso_h1"
+    "adhesion actualizacion"
+    "descuento reclamo-consumo"
+    "blanqueo reclamo-enre"
+    
+    ; 
+
+}
+
+
+
+.procesos_h1{
+    grid-area: proceso_h1;
+}
+.adhesion{
+    grid-area: adhesion;
+}
+.actualizacion{
+    grid-area: actualizacion;
+}
+.descuento{
+    grid-area: descuento;
+}
+.reclamo-consumo{
+    grid-area: reclamo-consumo;
+}
+.blanqueo{
+    grid-area: blanqueo;
+}
+.reclamo-enre{
+    grid-area: reclamo-enre;
+}
+
+
+/* FIN Estilos DIV de nuevo procesos ------------------------------------------*/
+
+
+/* ------------------------------Instalaciones-------------------------------------------- */
+
+/* Estilos H de Instalaciones */
+.instalaciones_h1{
+    text-align: center;
+    text-decoration: underline;
+
+    
+    }
+    
+    /* Estilos H de Instalaciones */
+    
+    
+    /* Estilos imagen de Instalaciones */
+ 
+    .contenedor-cards{
+        display: flex;
+        flex-direction:column;
+        align-items: end;
+        margin-right: 15px;
+        
+        
+        
+    }
+
+    .card{
+      margin: 10px;
+   
+        
+    }
+
+    /* Estilos imagen de Instalaciones ----------------------------------------------------*/
+    
+    
+
+/* -------------------------------------Estilos Pag Nosotros-------------------------------- */
+
+
+
+/* ------------------------------------Estilos h de Nostros  ------------------------------*/
+
+.nosotros_h1{
+    
+    text-decoration: underline;
+    border-top: none;
+    font-size: 30px; 
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+main h2{
+    text-decoration: underline;
+    margin: 20px;
+
+}
+
+/* ------------------------------------FIN Estilos h de Nostros  ------------------------------*/
+
+
+main ul li {
+
+    margin: 8px;
+    
+}
+
+
+.formulario{
+    margin-left: 10px;
+
+
+    form div{
+        display: block;
+    }
+}
+
+
+
+
+.h-nosotros{
+    display: block;
+}
+
+
+}
+
+/* FIN de media queris 1200------------------------------------------------------------------------*/
+

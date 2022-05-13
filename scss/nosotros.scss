@@ -1,0 +1,61 @@
+/* -------------------------------------Estilos Pag Nosotros-------------------------------- */
+
+
+
+/* ------------------------------------Estilos h de Nostros  ------------------------------*/
+
+.nosotros_h1{
+    
+    text-decoration: underline;
+    border-top: none;
+    font-size: 30px; 
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+main h2{
+    text-decoration: underline;
+    margin: 20px;
+
+}
+
+/* ------------------------------------FIN Estilos h de Nostros  ------------------------------*/
+
+
+.main-nosotros{
+
+        ul li {
+
+            margin-left: 10px;
+            margin-top: 10px;   
+        }
+
+        h4{
+            margin-left: 10px;
+        }
+}
+
+.imagen-nosotros{
+
+    width: 40%;
+    
+}
+
+
+.h-nosotros{
+  
+    margin-left: 25px;
+}
+
+
+.row{
+    
+    background-color: #979ab5;  
+    display:inline-block;
+    
+    margin: 16px;
+    
+}

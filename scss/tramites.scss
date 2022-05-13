@@ -1,0 +1,85 @@
+/* ----------------------------- Estilos H de Tramites --------------------- */
+
+.tramites_h1 {
+    
+    font-size: 60px;
+    text-align: center;
+    background-image: url(../Imagenes/tramites.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin: 0;
+    height: 200px;
+    padding-top: 90px;
+       
+}
+
+/* ----------------------------- FIN Estilos H de Tramites --------------------- */
+
+
+/* ----------------------------- Estilos DIV de Tramites  -------------------------*/
+
+.cambio_titular{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: solid 1px black;
+
+    h2{
+        margin: 0px;
+        text-decoration: underline;
+        padding: 10px;
+           
+    }
+    ul li{
+        margin: 5px;
+        padding: 5px;
+          
+    }  
+}
+
+
+.debito_auto{
+    
+    border: solid 1px black;
+
+    h2{
+        margin: 0px;
+        text-decoration: underline;
+        padding: 10px;
+    
+        
+    }
+
+    ul li{
+        margin: 5px;
+        padding: 5px;      
+    }
+
+}
+
+
+.baja_serv{
+
+    border: solid 1px black;
+
+    ul li{
+        margin: 5px;
+        padding: 5px;
+       
+        
+    }
+
+    h2{
+        margin: 0px;
+        text-decoration: underline;
+        padding: 10px;
+    
+        
+    }
+
+}
+
+
+
+/* ----------------------------- FIN  Estilos DIV de Tramites  -------------------------*/
+
