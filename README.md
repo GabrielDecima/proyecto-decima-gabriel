@@ -23,3 +23,8 @@ keywords-Index:  "Gabriel,Decima,procesos,tramites,asesor,actualizaciones"
 
 Description-Index:  "Mi nombre es Gabriel Decima, soy desarrollador Web.El sitio esta orientado como guia para los asesores telefonicos,van a poder ver las ultimas novedades de los procesos.
 
+
+
+
+Se agredo favicon en todas las paginas, usando logo correspondiente. 
+
