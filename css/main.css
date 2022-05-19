@@ -159,8 +159,7 @@
 /* ------------------ Fin Estilos H de nuevo procesos ----------------------------*/
 /* ----------------------- Estilos DIV de nuevo procesos ----------------------- -*/
 .main_proceso div {
-  display: block;
-  text-align: center; }
+  display: block; }
   .main_proceso div h3 {
     text-decoration: underline; }
   .main_proceso div ol li {
@@ -183,6 +182,9 @@
 
 .reclamo-enre {
   border: solid #2e2c3f; }
+
+.main_proceso div {
+  text-align: center; }
 
 /* ---------------------------- FIN Estilos DIV de nuevo procesos  ----------------------------------*/
 /* ----------------------------- Estilos H de Tramites --------------------- */

@@ -3,6 +3,7 @@
 Se aplico Extend en los estilos de TRAMITES
 Se aplico MAPS en los estilos de NUEVOS PROCESOS
 Se aplico MIXINS en los estilos de INSTALACIONES
+Se aplico MIXINS en los estilos de NUEVO PROCESOS
 
 -------------------------------------------------------
 

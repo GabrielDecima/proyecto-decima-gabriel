@@ -20,7 +20,7 @@
 
         div {
             display: block;
-            text-align: center;
+            
 
         h3 {
             text-decoration: underline;
@@ -54,6 +54,21 @@ $div-proceso-tipo: (
     }
     
 }
+
+//TRABAJANDO CON MIXINS
+
+@mixin text ($centrado) {
+
+    text-align: $centrado;
+    
+    
+    
+  }
+
+  .main_proceso div{
+    @include text(center)
+
+  }
 
 
 /* ---------------------------- FIN Estilos DIV de nuevo procesos  ----------------------------------*/ 
