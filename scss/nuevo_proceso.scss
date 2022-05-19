@@ -19,10 +19,7 @@
 .main_proceso{
 
         div {
-            
-            border: solid;
             display: block;
-            border-color: #efece9;
             text-align: center;
 
         h3 {
@@ -33,8 +30,30 @@
             list-style-position: inside;
         }
                 
-        }    
+        }
+        
+        
 
 }
+
+// MAPS //
+
+$div-proceso-tipo: (
+
+    adhesion: solid #2e2c3f,
+    actualizacion: solid #2e2c3f,
+    decuento: solid #2e2c3f,
+    reclamo-consumo: solid #2e2c3f,
+    blanqueo: solid #2e2c3f ,
+    reclamo-enre: solid #2e2c3f,
+
+);
+@each $ges, $tipo in $div-proceso-tipo {
+    .#{$ges} {
+        border: $tipo;
+    }
+    
+}
+
 
 /* ---------------------------- FIN Estilos DIV de nuevo procesos  ----------------------------------*/ 

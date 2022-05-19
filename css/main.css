@@ -20,25 +20,25 @@
 /* ---------------------------FIN  Estilos barra de navegación ------------------- */
 /* -------------------------Estilos Generales FOOTER -----------------------*/
 /* Estilos Links de FOTER */
-.link_redes h3 {
-  text-align: center;
-  text-decoration: underline;
-  margin: 10px;
-  color: white; }
-
-.link_redes div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 3px;
-  padding: 5px; }
-
-.link_redes a {
-  text-decoration: none;
-  color: white;
-  border: solid;
-  border-radius: 4px;
-  padding: 1px; }
+.link_redes {
+  margin: 10px; }
+  .link_redes h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+    color: white; }
+  .link_redes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    padding: 5px; }
+  .link_redes a {
+    color: white;
+    border: solid;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 3px; }
 
 .section-footer {
   background: #020024;
@@ -47,14 +47,14 @@
   background-color: #ced1f0; }
 
 /* Aplicando transiciones/transformaciones footer */
-.tag_face {
-  transition: .3s;
-  transition-timing-function: ease; }
-
 .clase_span {
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.tag_face {
+  transition: .3s;
+  transition-timing-function: ease; }
 
 .tag_tw {
   transition: .3s;
@@ -159,20 +159,35 @@
 /* ------------------ Fin Estilos H de nuevo procesos ----------------------------*/
 /* ----------------------- Estilos DIV de nuevo procesos ----------------------- -*/
 .main_proceso div {
-  border: solid;
   display: block;
-  border-color: #efece9;
   text-align: center; }
   .main_proceso div h3 {
     text-decoration: underline; }
   .main_proceso div ol li {
     list-style-position: inside; }
 
+.adhesion {
+  border: solid #2e2c3f; }
+
+.actualizacion {
+  border: solid #2e2c3f; }
+
+.decuento {
+  border: solid #2e2c3f; }
+
+.reclamo-consumo {
+  border: solid #2e2c3f; }
+
+.blanqueo {
+  border: solid #2e2c3f; }
+
+.reclamo-enre {
+  border: solid #2e2c3f; }
+
 /* ---------------------------- FIN Estilos DIV de nuevo procesos  ----------------------------------*/
 /* ----------------------------- Estilos H de Tramites --------------------- */
 .tramites_h1 {
   font-size: 60px;
-  text-align: center;
   background-image: url(../Imagenes/tramites.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,44 +197,13 @@
 
 /* ----------------------------- FIN Estilos H de Tramites --------------------- */
 /* ----------------------------- Estilos DIV de Tramites  -------------------------*/
-.cambio_titular {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  border: solid 1px black; }
-  .cambio_titular h2 {
-    margin: 0px;
-    text-decoration: underline;
-    padding: 10px; }
-  .cambio_titular ul li {
-    margin: 5px;
-    padding: 5px; }
-
-.debito_auto {
-  border: solid 1px black; }
-  .debito_auto h2 {
-    margin: 0px;
-    text-decoration: underline;
-    padding: 10px; }
-  .debito_auto ul li {
-    margin: 5px;
-    padding: 5px; }
-
-.baja_serv {
-  border: solid 1px black; }
-  .baja_serv ul li {
-    margin: 5px;
-    padding: 5px; }
-  .baja_serv h2 {
-    margin: 0px;
-    text-decoration: underline;
-    padding: 10px; }
-
 /* ----------------------------- FIN  Estilos DIV de Tramites  -------------------------*/
 /* ------------------------------Estilos Pag Instalaciones-------------------------------------------- */
 /*-----------------------------  Estilos H de Instalaciones --------------------------------------- */
-.instalaciones_h1 {
+.instalaciones_h1, .tramites_h1 {
   text-align: center;
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: #f80000; }
 
 /* ------------------------------Estilos H de Instalaciones  ---------------------------------------*/
 /* ------------------------------ Estilos imagen de Instalaciones ----------------------------------- */
@@ -230,7 +214,8 @@
   margin-right: 15px; }
 
 .card {
-  margin: 10px; }
+  padding: 5px;
+  margin: 5px; }
 
 /* ------------------------------ FIN Estilos imagen de Instalaciones ----------------------------------- */
 /* -------------------------------------Estilos Pag Nosotros-------------------------------- */
@@ -380,9 +365,7 @@ main h2 {
     grid-template-columns: auto auto;
     grid-template-areas: "proceso_h1 proceso_h1" "adhesion actualizacion" "descuento reclamo-consumo" "blanqueo reclamo-enre"; }
     .main_proceso div {
-      border: solid;
       display: block;
-      border-color: #efece9;
       text-align: center; }
       .main_proceso div h3 {
         text-decoration: underline; }
@@ -402,10 +385,22 @@ main h2 {
     grid-area: blanqueo; }
   .reclamo-enre {
     grid-area: reclamo-enre; }
+  .adhesion {
+    border: solid #2e2c3f; }
+  .actualizacion {
+    border: solid #2e2c3f; }
+  .decuento {
+    border: solid #2e2c3f; }
+  .reclamo-consumo {
+    border: solid #2e2c3f; }
+  .blanqueo {
+    border: solid #2e2c3f; }
+  .reclamo-enre {
+    border: solid #2e2c3f; }
   /* FIN Estilos DIV de nuevo procesos ------------------------------------------*/
   /* ------------------------------Instalaciones-------------------------------------------- */
   /* Estilos H de Instalaciones */
-  .instalaciones_h1 {
+  .instalaciones_h1, .tramites_h1 {
     text-align: center;
     text-decoration: underline; }
   /* Estilos H de Instalaciones */
@@ -416,7 +411,8 @@ main h2 {
     align-items: end;
     margin-right: 15px; }
   .card {
-    margin: 10px; }
+    padding: 5px;
+    margin: 5px; }
   /* Estilos imagen de Instalaciones ----------------------------------------------------*/
   /* -------------------------------------Estilos Pag Nosotros-------------------------------- */
   /* ------------------------------------Estilos h de Nostros  ------------------------------*/

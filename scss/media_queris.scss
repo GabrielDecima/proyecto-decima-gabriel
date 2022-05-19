@@ -180,17 +180,21 @@ main div {
 
 .tag_face:hover{
     transform: scale(1.1);
+
+    
 }
 .tag_tw:hover{
     transform: scale(1.1);
+    
 }
 .tag_oficial:hover{
     transform: scale(1.1);
+   
 }
 .tag_insta:hover{
     transform: scale(1.1);
+   
 }
-
 
 /* -------------------FIN ESTILOS FOOTER------------------ */
 
@@ -217,9 +221,9 @@ main div {
 
         div {
             
-            border: solid;
+            
             display: block;
-            border-color: #efece9;
+           
             text-align: center;
 
             h3 {
@@ -271,6 +275,26 @@ main div {
 }
 
 
+// MAPS //
+
+$div-proceso-tipo: (
+
+    adhesion: solid #2e2c3f,
+    actualizacion: solid #2e2c3f,
+    decuento: solid #2e2c3f,
+    reclamo-consumo: solid #2e2c3f,
+    blanqueo: solid #2e2c3f ,
+    reclamo-enre: solid #2e2c3f,
+
+);
+@each $ges, $tipo in $div-proceso-tipo {
+    .#{$ges} {
+        border: $tipo;
+    }
+    
+}
+
+
 /* FIN Estilos DIV de nuevo procesos ------------------------------------------*/
 
 
@@ -299,12 +323,21 @@ main div {
         
     }
 
-    .card{
-      margin: 10px;
-   
-        
-    }
+    //TRABAJANDO CON MIXINS
 
+    @mixin size ($separacion , $espacio) {
+
+        padding: $separacion;
+        
+        margin: $espacio;
+        
+      }
+  
+      .card{
+        @include size(5px,5px)
+  
+      }
+      
     /* Estilos imagen de Instalaciones ----------------------------------------------------*/
     
     

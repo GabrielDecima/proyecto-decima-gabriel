@@ -4,6 +4,10 @@
 /* Estilos Links de FOTER */
 
 .link_redes{ 
+
+    margin: 10px;
+    
+
     
     h3{  
     text-align: center;
@@ -22,14 +26,18 @@
     }
     
     a{
-        text-decoration: none;
-        color: white;
-        border: solid;
-        border-radius: 4px;
-        padding: 1px;
+    color: white;
+    border: solid;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 3px;
     }
 
+   
 }
+
+
+
 
 .section-footer{
     background: rgb(2,0,36);
@@ -42,17 +50,17 @@ border: outset 3px;
 
 /* Aplicando transiciones/transformaciones footer */
 
-.tag_face{
-    transition: .3s;
-    transition-timing-function: ease;
-       
-}
-
-
 .clase_span{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.tag_face{
+    transition: .3s;
+    transition-timing-function: ease;
+    
+       
 }
 
 .tag_tw{
@@ -68,8 +76,10 @@ border: outset 3px;
     transition-timing-function: ease;
 }
 
+
 .tag_face:hover{
     transform: scale(1.1);
+
     
 }
 .tag_tw:hover{
@@ -78,9 +88,11 @@ border: outset 3px;
 }
 .tag_oficial:hover{
     transform: scale(1.1);
+    
 }
 .tag_insta:hover{
     transform: scale(1.1);
+    
 }
 
 
