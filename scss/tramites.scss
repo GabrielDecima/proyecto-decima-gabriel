@@ -21,6 +21,24 @@
 /* ----------------------------- FIN Estilos H de Tramites --------------------- */
 
 
+.accordion{
+    background-color: $color-back;
+}
+
+.accordion-button{
+    color: aliceblue;
+    text-decoration:underline;
+
+    @extend .accordion;
+}
+
+
+
+.accordion-header{
+    margin: 0px;
+    @extend .accordion
+}
+
 /* ----------------------------- Estilos DIV de Tramites  -------------------------*/
 
 

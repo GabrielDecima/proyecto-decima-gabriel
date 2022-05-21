@@ -198,6 +198,16 @@
   padding-top: 90px; }
 
 /* ----------------------------- FIN Estilos H de Tramites --------------------- */
+.accordion, .accordion-button, .accordion-header {
+  background-color: #1d558c; }
+
+.accordion-button {
+  color: aliceblue;
+  text-decoration: underline; }
+
+.accordion-header {
+  margin: 0px; }
+
 /* ----------------------------- Estilos DIV de Tramites  -------------------------*/
 /* ----------------------------- FIN  Estilos DIV de Tramites  -------------------------*/
 /* ------------------------------Estilos Pag Instalaciones-------------------------------------------- */
