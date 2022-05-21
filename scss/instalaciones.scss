@@ -15,6 +15,16 @@
     
     /* ------------------------------ Estilos imagen de Instalaciones ----------------------------------- */
     
+
+    .main-instalaciones{
+
+      display: grid;
+      grid-template-areas:
+      "informacion cards"
+    ;
+      background-color: rgb(39, 99, 152);
+
+   }
     
     
     .contenedor-cards{
@@ -22,11 +32,21 @@
         flex-direction:column;
         align-items: end;
         margin-right: 15px;
+        grid-area: cards;
         
+
+        .card{
+          border: solid 1.5px black;
+        }
         
         
     }
     
+    .informacion-instalaciones{
+      grid-area: informacion;
+      margin-left: $espacio-min;
+      color: rgb(14, 14, 14);
+    }
     
     
 
