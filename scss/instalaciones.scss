@@ -18,37 +18,44 @@
 
     .main-instalaciones{
 
-      display: grid;
-      grid-template-areas:
-      "informacion cards"
-    ;
+  
       background-color: rgb(39, 99, 152);
 
    }
     
-    
-    .contenedor-cards{
-        display: flex;
-        flex-direction:column;
-        align-items: end;
-        margin-right: 15px;
-        grid-area: cards;
-        
+   .carrousel-inst{
+     max-width: 600px ;
+     max-height: 600px;
+     
 
-        .card{
-          border: solid 1.5px black;
-        }
-        
-        
+   }
+
+
+  .carousel-item{
+    img{
+      max-width: 800px;
+      max-height: 400px;
     }
+  }
     
     .informacion-instalaciones{
-      grid-area: informacion;
+     
       margin-left: $espacio-min;
       color: rgb(14, 14, 14);
     }
     
+    .carousel-caption{
     
+    h5{
+      color: red;
+      text-decoration: underline;
+      
+    }
+    p{
+      color: rgb(255, 255, 255);
+    }
+  }
+
 
     //TRABAJANDO CON MIXINS
 
@@ -60,7 +67,7 @@
       
     }
 
-    .card{
+    .carrousel-inst{
       @include size(5px,5px)
 
     }
