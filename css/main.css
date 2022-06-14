@@ -9,6 +9,12 @@
 .section-main {
   background-color: #1d558c; }
 
+.main_proceso {
+  background-color: #1d558c; }
+
+.main-nosotros {
+  background-color: #1d558c; }
+
 /* ---------------------------- Estilos Generales Body ------------------------*/
 /* --------------------------- Estilos barra de navegación ------------------- */
 .navbar {
@@ -110,7 +116,7 @@
     margin-left: 40px; }
 
 .header-index {
-  background-image: url(../Imagenes/ciudad.jpg);
+  background-image: url(../Imagenes/ciudad2.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding-bottom: 180px; }
@@ -151,6 +157,7 @@
 .procesos_h1 {
   text-decoration: underline;
   font-family: 'Cormorant', cursive;
+  color: white;
   font-size: 35px;
   margin-top: 0;
   display: flex;
@@ -161,7 +168,8 @@
 .main_proceso div {
   display: block; }
   .main_proceso div h3 {
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: white; }
   .main_proceso div ol li {
     list-style-position: inside; }
 
@@ -208,8 +216,6 @@
 .accordion-header {
   margin: 0px; }
 
-/* ----------------------------- Estilos DIV de Tramites  -------------------------*/
-/* ----------------------------- FIN  Estilos DIV de Tramites  -------------------------*/
 /* ------------------------------Estilos Pag Instalaciones-------------------------------------------- */
 /*-----------------------------  Estilos H de Instalaciones --------------------------------------- */
 .instalaciones_h1, .tramites_h1 {
@@ -219,16 +225,12 @@
 
 /* ------------------------------Estilos H de Instalaciones  ---------------------------------------*/
 /* ------------------------------ Estilos imagen de Instalaciones ----------------------------------- */
-.main-instalaciones {
-  background-color: #276398; }
-
-.carrousel-inst {
-  max-width: 600px;
+.carousel-inner {
+  max-width: 800px;
   max-height: 600px; }
 
-.carousel-item img {
-  max-width: 800px;
-  max-height: 400px; }
+.img_div {
+  margin: auto; }
 
 .informacion-instalaciones {
   margin-left: 10px;
@@ -241,7 +243,11 @@
 .carousel-caption p {
   color: white; }
 
-.carrousel-inst {
+.descripcion-instalaciones {
+  padding: 5px;
+  margin: 5px; }
+
+.informacion-instalaciones {
   padding: 5px;
   margin: 5px; }
 

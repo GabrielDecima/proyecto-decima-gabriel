@@ -16,28 +16,27 @@
     /* ------------------------------ Estilos imagen de Instalaciones ----------------------------------- */
     
 
-    .main-instalaciones{
+ 
 
+
+
+.carousel-inner{
+  max-width: 800px;
+  max-height: 600px;
   
-      background-color: rgb(39, 99, 152);
-
-   }
-    
-   .carrousel-inst{
-     max-width: 600px ;
-     max-height: 600px;
-     
-
-   }
+}
 
 
-  .carousel-item{
-    img{
-      max-width: 800px;
-      max-height: 400px;
-    }
-  }
-    
+
+.img_div
+{
+  
+  margin:  auto;
+}
+
+
+
+
     .informacion-instalaciones{
      
       margin-left: $espacio-min;
@@ -57,7 +56,7 @@
   }
 
 
-    //TRABAJANDO CON MIXINS
+    // TRABAJANDO CON MIXINS
 
     @mixin size ($separacion , $espacio) {
 
@@ -67,10 +66,16 @@
       
     }
 
-    .carrousel-inst{
+    .descripcion-instalaciones{
       @include size(5px,5px)
 
     }
+
+    .informacion-instalaciones{
+      @include size(5px,5px)
+
+    }
+    
     
     /* ------------------------------ FIN Estilos imagen de Instalaciones ----------------------------------- */
     
