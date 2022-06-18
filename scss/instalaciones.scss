@@ -41,17 +41,36 @@
      
       margin-left: $espacio-min;
       color: rgb(14, 14, 14);
+
+      h4{
+        color: white;
+        text-decoration: underline;
+      }
+
+      li{
+        font-size: 22px;
+      }
+
     }
+
+
+    .descripcion-instalaciones{
+      font-size: 20px;
+    }
+
+
     
     .carousel-caption{
     
     h5{
-      color: red;
+      color: rgb(253, 16, 16);
       text-decoration: underline;
+      font-size: 30px;
       
     }
     p{
       color: rgb(255, 255, 255);
+      font-size: 23px;
     }
   }
 
@@ -74,8 +93,12 @@
     .informacion-instalaciones{
       @include size(5px,5px)
 
+      
+
     }
     
+   
+
     
     /* ------------------------------ FIN Estilos imagen de Instalaciones ----------------------------------- */
     

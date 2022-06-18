@@ -28,6 +28,7 @@
 .accordion-button{
     color: aliceblue;
     text-decoration:underline;
+    font-size: 25px;
 
     @extend .accordion;
 }

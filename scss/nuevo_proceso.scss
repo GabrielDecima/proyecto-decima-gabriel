@@ -4,8 +4,7 @@
 .procesos_h1{
     
     text-decoration: underline;
-    font-family: 'Cormorant', cursive;
-    color: white;
+    color: rgb(255, 12, 12);
     font-size: 35px; 
     margin-top: 0;
     display: flex;
@@ -30,6 +29,7 @@
 
         ol li{
             list-style-position: inside;
+            font-size: 23px;
         }
                 
         }

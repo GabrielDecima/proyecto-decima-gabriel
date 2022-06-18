@@ -8,7 +8,8 @@
     
     text-decoration: underline;
     border-top: none;
-    font-size: 30px; 
+    color: rgb(255, 0, 0);
+    font-size: 40px; 
     margin-top: 0;
     display: flex;
     justify-content: center;
@@ -16,11 +17,6 @@
 }
 
 
-main h2{
-    text-decoration: underline;
-    margin: 20px;
-
-}
 
 /* ------------------------------------FIN Estilos h de Nostros  ------------------------------*/
 
@@ -30,12 +26,26 @@ main h2{
         ul li {
 
             margin-left: 10px;
-            margin-top: 10px;   
+            margin-top: 10px;  
+            font-size: 23px; 
         }
 
         h4{
             margin-left: 10px;
         }
+
+        
+}
+
+
+
+.main-nosotros h2{
+    
+        text-decoration: underline;
+        margin: 20px;
+        color: white;
+    
+    
 }
 
 .imagen-nosotros{
@@ -48,6 +58,7 @@ main h2{
 .h-nosotros{
   
     margin-left: 25px;
+    
 }
 
 
@@ -57,5 +68,14 @@ main h2{
     display:inline-block;
     
     margin: 16px;
+
+    button{
+        margin: 5px;
+    }
     
+}
+
+
+.form-select{
+    padding: 0;
 }

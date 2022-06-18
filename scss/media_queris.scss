@@ -18,9 +18,9 @@
 
 /* Estilo para los H index */
 .home_h1{
-    font-family: 'Cormorant', cursive;
-    font-size: 65px;
     
+    font-size: 70px;
+    font-family: 'League Gothic', sans-serif;
 }
 
 /* Estilos header */
@@ -43,7 +43,7 @@
     text-decoration:underline;
      padding-left: 2px;
      margin-left: 18px;
-     font-family: Arial, Helvetica, sans-serif;
+    
  
 }
 
@@ -60,17 +60,17 @@
 
     h2{
     margin-left: 8px;
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+   
     display: flex;
     justify-content: center;
     color: rgb(255, 0, 0);
     }
 
     p{
-        font-size: 18px;
-        font-family:Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        
         color: white;
     }
 
@@ -205,7 +205,7 @@ main div {
 .procesos_h1{
     
     text-decoration: underline;
-    font-family: 'Cormorant', cursive;
+    
     font-size: 35px; 
     margin-top: 0;
     display: flex;
@@ -352,7 +352,7 @@ $div-proceso-tipo: (
     
     text-decoration: underline;
     border-top: none;
-    font-size: 30px; 
+    font-size: 50px; 
     margin-top: 0;
     display: flex;
     justify-content: center;

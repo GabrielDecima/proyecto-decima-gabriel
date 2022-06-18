@@ -15,6 +15,9 @@
 .main-nosotros {
   background-color: #1d558c; }
 
+h1, h2, h3, h4, h5, p, li, ol, ul {
+  font-family: 'League Gothic', sans-serif; }
+
 /* ---------------------------- Estilos Generales Body ------------------------*/
 /* --------------------------- Estilos barra de navegación ------------------- */
 .navbar {
@@ -22,6 +25,9 @@
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px; }
+
+.navbar-collapse {
+  font-size: 28px; }
 
 /* ---------------------------FIN  Estilos barra de navegación ------------------- */
 /* -------------------------Estilos Generales FOOTER -----------------------*/
@@ -89,10 +95,9 @@
 /* -------------------------FIN Estilos Generales FOOTER -----------------------*/
 /*-------------------------- Estilo para los H index -----------------------------------------*/
 .home_h1 {
-  font-family: 'Cormorant', cursive;
   font-size: 40px;
   color: white;
-  padding-top: 60px;
+  padding-top: 75px;
   animation-name: h1_entrada;
   animation-iteration-count: 1;
   animation-duration: 3s;
@@ -129,7 +134,7 @@
     text-decoration: underline;
     padding-left: 2px;
     margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: 'League Gothic', sans-serif; }
 
 /* ------------------------------Fin Estilo para los Header index -------------------------------------------*/
 /* ----------------------------------- Estilos para la tabla index ----------------------------------------*/
@@ -144,11 +149,10 @@
     margin-left: 8px;
     font-size: 20px;
     padding-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
     color: red; }
   .descrip-pagina p {
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
     color: white; }
 
 /* ---------------------------- FIN Estilos Main del Index ---------------------------------------------------*/
@@ -156,8 +160,7 @@
 /* -------------------- Estilos H de nuevo procesos ---------------------- -*/
 .procesos_h1 {
   text-decoration: underline;
-  font-family: 'Cormorant', cursive;
-  color: white;
+  color: #ff0c0c;
   font-size: 35px;
   margin-top: 0;
   display: flex;
@@ -171,7 +174,8 @@
     text-decoration: underline;
     color: white; }
   .main_proceso div ol li {
-    list-style-position: inside; }
+    list-style-position: inside;
+    font-size: 23px; }
 
 .adhesion {
   border: solid #2e2c3f; }
@@ -211,7 +215,8 @@
 
 .accordion-button {
   color: aliceblue;
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-size: 25px; }
 
 .accordion-header {
   margin: 0px; }
@@ -235,13 +240,23 @@
 .informacion-instalaciones {
   margin-left: 10px;
   color: #0e0e0e; }
+  .informacion-instalaciones h4 {
+    color: white;
+    text-decoration: underline; }
+  .informacion-instalaciones li {
+    font-size: 22px; }
+
+.descripcion-instalaciones {
+  font-size: 20px; }
 
 .carousel-caption h5 {
-  color: red;
-  text-decoration: underline; }
+  color: #fd1010;
+  text-decoration: underline;
+  font-size: 30px; }
 
 .carousel-caption p {
-  color: white; }
+  color: white;
+  font-size: 23px; }
 
 .descripcion-instalaciones {
   padding: 5px;
@@ -257,22 +272,25 @@
 .nosotros_h1 {
   text-decoration: underline;
   border-top: none;
-  font-size: 30px;
+  color: red;
+  font-size: 40px;
   margin-top: 0;
   display: flex;
   justify-content: center; }
 
-main h2 {
-  text-decoration: underline;
-  margin: 20px; }
-
 /* ------------------------------------FIN Estilos h de Nostros  ------------------------------*/
 .main-nosotros ul li {
   margin-left: 10px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-size: 23px; }
 
 .main-nosotros h4 {
   margin-left: 10px; }
+
+.main-nosotros h2 {
+  text-decoration: underline;
+  margin: 20px;
+  color: white; }
 
 .imagen-nosotros {
   width: 40%; }
@@ -284,6 +302,11 @@ main h2 {
   background-color: #979ab5;
   display: inline-block;
   margin: 16px; }
+  .row button {
+    margin: 5px; }
+
+.form-select {
+  padding: 0; }
 
 /* -------------------------Comienzo de media queris ------------------------------------------------*/
 @media screen and (min-width: 1200px) {
@@ -294,8 +317,8 @@ main h2 {
   /* ----------------------------------------Estilos Headrer index--------------------- */
   /* Estilo para los H index */
   .home_h1 {
-    font-family: 'Cormorant', cursive;
-    font-size: 65px; }
+    font-size: 70px;
+    font-family: 'League Gothic', sans-serif; }
   /* Estilos header */
   .section-1 {
     display: flex;
@@ -306,8 +329,7 @@ main h2 {
     color: red;
     text-decoration: underline;
     padding-left: 2px;
-    margin-left: 18px;
-    font-family: Arial, Helvetica, sans-serif; }
+    margin-left: 18px; }
   /* Fin Estilo para los H index---------------------------------------------------- */
   /* Estilos Main del Index --------------------------------------------------------*/
   .descrip-pagina {
@@ -315,15 +337,13 @@ main h2 {
     grid-area: section; }
     .descrip-pagina h2 {
       margin-left: 8px;
-      font-size: 20px;
+      font-size: 30px;
       padding-top: 50px;
-      font-family: Arial, Helvetica, sans-serif;
       display: flex;
       justify-content: center;
       color: red; }
     .descrip-pagina p {
-      font-size: 18px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
       color: white; }
   .section-main {
     display: grid;
@@ -387,7 +407,6 @@ main h2 {
   /* Estilos H de nuevo procesos -------------------------------------------------- */
   .procesos_h1 {
     text-decoration: underline;
-    font-family: 'Cormorant', cursive;
     font-size: 35px;
     margin-top: 0;
     display: flex;
@@ -453,7 +472,7 @@ main h2 {
   .nosotros_h1 {
     text-decoration: underline;
     border-top: none;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 0;
     display: flex;
     justify-content: center; }
